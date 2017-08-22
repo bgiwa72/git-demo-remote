@@ -17,7 +17,7 @@ ${SEARCH_TERM} =  Lamborghini Gallardo
 *** Test Cases ***
 Logged out user should sign in to checkout
     [Documentation]  This test verifies user should sign into account to checkout
-    [Tags]  Current
+    [Tags]  Current Test
     AmazonApp.Search for Products
     AmazonApp.Select Product from Search Results
     AmazonApp.Add Product to Cart
