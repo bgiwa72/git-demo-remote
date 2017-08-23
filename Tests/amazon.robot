@@ -15,6 +15,11 @@ ${SEARCH_TERM} =  Lamborghini Gallardo
 
 
 *** Test Cases ***
+Logged out user should be able to search for products
+    [Documentation]  This test verifies user should be able to search for products
+    [Tags]  Smoke
+    AmazonApp.Search for Products
+
 Logged out user should sign in to checkout
     [Documentation]  This test verifies user should sign into account to checkout
     [Tags]  Current Test
