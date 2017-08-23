@@ -9,7 +9,7 @@ Suite Teardown  Cleaning Testing Data
 
 
 *** Variables ***
-${BROWSER} =  ff
+${BROWSER} =  chrome
 ${START_URL} =  https://www.amazon.com
 ${SEARCH_TERM} =  Lamborghini Gallardo
 
